@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+table{
+    border-collapse: collapse;
+}
+
+td{
+    background: #F5F5F5;
+    padding: 5px;
+    font-size: 0.9em;
+}
+td:nth-child(odd){
+    background:white;
+}
+
+th:nth-child(odd){
+    background:#BEBBBB;
+}
+
+th{
+    padding: 5px;
+    color: white;
+    background: #878585;
+    cursor: pointer;
+}
+
+tr{
+    border-bottom: 1px solid #D9D8D8;
+
+}
